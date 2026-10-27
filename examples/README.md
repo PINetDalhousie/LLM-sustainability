@@ -20,13 +20,13 @@ Document
   ├─► Chunk N ──►  Final Summary
 ```
 
-arization.png![Document Chain Summarization Workflow](../assets/chain-summarization-workflow.pdf)
+<!-- [Document Chain Summarization Workflow](../assets/chain-summarization-workflow.pdf) -->
 
 **Key characteristics:**
 - Decode-heavy; each LLM call must complete before the next begins
 - Sequential dependencies eliminate batching opportunities
 - Input length directly amplifies prefill computation
-- Evaluated on long-form academic papers from the [Arxiv dataset](https://arxiv.org)
+- Evaluated on long-form academic papers from the [Arxiv dataset](https://arxiv.org/abs/2304.12102)
 
 **Usage:**
 ```bash
@@ -55,7 +55,7 @@ Safety Filtering
 Final Response
 ```
 
-![LLM-powered Search Workflow](../assets/bing-copilot-workflow.pdf)
+<!-- ![LLM-powered Search Workflow](../assets/bing-copilot-workflow.pdf) -->
 
 **Key characteristics:**
 - Prefill-heavy due to the long static system prompt
@@ -93,7 +93,7 @@ Engineer Engineer Engineer
            │
          Output
 ```
-![Multi-Agent Coding Workflow](../assets/multi-agent-coding-workflow.pdf)
+<!-- ![Multi-Agent Coding Workflow](../assets/multi-agent-coding-workflow.pdf) -->
 
 **Key characteristics:**
 - DAG execution: downstream agents cannot proceed until upstream agents complete
